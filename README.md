@@ -66,7 +66,16 @@ After processing the data we then proceed to start creating the confusion matrix
 
    ![image](https://github.com/user-attachments/assets/466a93fe-4958-4918-87e6-2e719386d388)
 
-3. The model below is a Random Forest Decision Tree
+3. The model below is a Random Forest Decision Tree with a max depth restriction of 3
+
+   Confusion matrix and metrics
+
+   ![image](https://github.com/user-attachments/assets/10416a0f-64b0-4cb0-aa95-cd36006a72ce)
+
+   ![image](https://github.com/user-attachments/assets/44d64f2c-d153-4604-9f51-78945497524b)
+
+   ![image](https://github.com/user-attachments/assets/c714cc5c-b133-4274-b487-f38a3b9ee98c)
+
 # Algorithims:
 
 
