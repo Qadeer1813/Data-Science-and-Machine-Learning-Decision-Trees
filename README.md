@@ -31,3 +31,6 @@ The data downloaded contains the following columns:
   * Credit_History- credit history meets guidelines
   * Property_Area- Urban/ Semi Urban/ Rural
   * Loan_Status- (Target) Loan approved (Y/N)
+
+# Processing
+After downlading this dataset, the dataset was loaded. A test print was conducted using this code ```loan_training_dataset.head()```. Data displayed the information about missing values in some of the columns. The data missing in some columns were as follows ```Gender```, ```Married```, ```Dependents```, ```Self_Employed```, ```LoanAmount```, ```Loan_Amount_Term```, ```Credit_History```. To clean this data all rows that contain a NaN value were dropped. Columns such as ```Gender```, ```Married```, ```Education```, ```Self_Employed```, ```Loan_Status``` need to be encoded as they are categorical data. After this was done One-hot encoding was doe for categorical data with more than 2 categories ```Dependents```, ```Property_Area```. The ```Loan_ID``` and ```Loan_Status``` columns aare dropped as the ```Loan_ID``` is an unique ID and the ```Loan_Status``` is the target. The cleaned data was then split nto training sets and testing sets.
