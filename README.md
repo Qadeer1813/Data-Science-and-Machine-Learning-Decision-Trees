@@ -9,7 +9,7 @@
 **Decision Tree and Random Forest**
 
 # Project Description
-The purpose of this project is to predict whether a loan application should be approved or rejected based on the applicants details
+The purpose of this project is to predict whether a loan application should be approved or rejected based on the applicants details in this dataset
 
 # Data Source
 The dataset that was used for this project can be downloaded from https://www.kaggle.com/datasets/granjithkumar/loan-approval-data-set
@@ -77,9 +77,11 @@ After processing the data we then proceed to start creating the confusion matrix
    ![image](https://github.com/user-attachments/assets/c714cc5c-b133-4274-b487-f38a3b9ee98c)
 
 # Algorithims:
-Decision Tree: 
+Decision Tree: This is a machine learning model used for both classification and regression tasks. 
+In this project it classifies loan applications as approved or rejected, mapping out possible outcomes based on the applicant data.
 
-Random Forest:
+Random Forest: This is essentially a group of Decision Trees. Random Forests are more robust and accurate than using a single Decision Tree. 
+In this project using a Random Forest improves the metrics such as Accuracy, Precision, Recall, F1-Score.
 
 # Online Sources:
 1. User guide# (2024) User Guide - pandas 2.2.3 documentation. Available at: https://pandas.pydata.org/docs/user_guide/index.html (Accessed: November 2024).
