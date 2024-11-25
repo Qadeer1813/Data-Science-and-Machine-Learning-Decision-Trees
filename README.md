@@ -77,7 +77,9 @@ After processing the data we then proceed to start creating the confusion matrix
    ![image](https://github.com/user-attachments/assets/c714cc5c-b133-4274-b487-f38a3b9ee98c)
 
 # Algorithims:
+Decision Tree: 
 
+Random Forest:
 
 # Online Sources:
 1. User guide# (2024) User Guide - pandas 2.2.3 documentation. Available at: https://pandas.pydata.org/docs/user_guide/index.html (Accessed: November 2024).
